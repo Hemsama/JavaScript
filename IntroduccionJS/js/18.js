@@ -1,9 +1,11 @@
-const sumar2 = function(){
-    console.log(3 + 3);
+function sumar(num1, num2){
+    console.log(num1 + num2);
 }
-sumar()
+sumar(10, 10);
 
-(function(){
-    console.log('esto es una funcion');
-})();
-sumar2();
+// Expresión de la función
+
+const sumar2 = function(n1, n2){
+    console.log( n1 + n2);
+}
+sumar2(5, 10);
